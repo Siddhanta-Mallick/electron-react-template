@@ -1,0 +1,15 @@
+{
+    "appId": "com.siddhanta.electron-course",
+    "files": [
+        "dist-react",
+        "./src/electron"
+    ],
+    "icon": "./desktopIcon.png",
+    "win": {
+        "signAndEditExecutable": false,
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}
