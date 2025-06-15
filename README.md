@@ -9,7 +9,7 @@ A clean starter template that combines Electron with React and Vite for fast and
 - React with Vite: Uses Vite for a fast development environment and optimized builds.
 - Electron integration: Configured to run and package desktop apps.
 - Windows build only: Electron builder is currently configured only for Windows. MacOS and Linux configurations are not yet set up.
-- No TailwindCSS: This template does not include TailwindCSS. A separate template with Tailwind will be released.
+- TailwindCSS: This template is updated to include TailwindCSS.
 - Includes a dummy `desktopIcon.png` file, which is necessary to create a working Windows build.
 - `signAndEditExecutable` is set to `false` in the `electron-builder` config to avoid symbolic link permission errors during Windows builds.
 
