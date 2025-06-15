@@ -4,6 +4,9 @@
         "dist-react",
         "./src/electron"
     ],
+    "extraResources": [
+        "./src/electron/preload.cjs"
+    ],
     "icon": "./desktopIcon.png",
     "win": {
         "signAndEditExecutable": false,
